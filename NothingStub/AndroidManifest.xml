@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nothing.stub">
+
+    <application>
+        <provider
+            android:name=".NothingProvider"
+            android:authorities="com.nothing.settings.contentprovider"
+            android:exported="true"
+            android:multiprocess="false" />
+    </application>
+</manifest>
